@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset = "utf-8">
+        <title>Imagens dinamicas</title>
+
+    </head>
+    <body>
+        <h1>Imagens que se adaptam</h1>
+        <p>Tente abrir esse site em dispositivos diferentes ou redimensione seu navegador</p>
+        <h3>Imagem grande</h3>
+        <picture>
+            <source media="(max-width:730px)" srcset="images/p.png" type="image/png">
+
+            <source media="(max-width:1000px)" srcset="images/m.png" type="image/png">
+            <img src = "images/g.png">
+        </picture>
+        <h3>A ordem da source precisa ser sempre acima</h3>
+
+
+
+    </body>
+</html>

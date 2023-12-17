@@ -1,0 +1,20 @@
+body{
+    background-color: bisque;
+    font-family:sans-serif;
+}
+
+h1{
+    color:blueviolet;
+
+
+}
+
+h2{
+    color:brown;
+
+}
+#main{
+    color:chocolate;
+    font-weight:bolder;
+    font-size:50px;
+}

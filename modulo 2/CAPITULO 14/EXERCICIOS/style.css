@@ -1,0 +1,27 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-image:linear-gradient(to right, #510D0A, #191102)
+}
+main{
+    width:60%;
+    background-color: #BBD8B3;
+    margin:0 auto;
+    padding:10px;
+}
+h1{
+    color:#A29F15;
+}
+h2{
+
+}
+h3{ 
+
+}
+p{
+    color:#F3B61F;
+
+}

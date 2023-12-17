@@ -1,0 +1,24 @@
+*{
+
+}
+
+body{
+    background-image:linear-gradient(to right, #A1A6B4, #B4D2E7);
+}
+
+main{
+    width:60%;
+    margin:0 auto;
+    background-color:white;
+    padding:10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.438);
+}
+p{
+    color:#A1A6B4;
+}
+
+h1, h2, h3{
+    color:#000100;
+}
+

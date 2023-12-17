@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang = "pt-br">
+    <head>
+        <meta charset = "utf-8">
+        <title>Pseudo elementos</title>
+        <style>
+            body{
+                font-family:'Courier New', Courier, monospace;
+
+            }
+            a{
+                color:red;
+            }
+            /*Quando o link ja foi visitado*/
+           
+            a:visited{
+                color:blueviolet;
+                text-decoration: none;
+            }
+            a:hover{
+                color:red;
+            }
+            a:active{
+                color:yellow;
+            }
+
+            /*Pseudo elemento se usa duas vezes ::*/
+
+            a::before{
+                content: '[ - ]'
+
+            }
+
+            a::after{
+                content : ' [ - ]';
+                color:rgba(129, 104, 104, 0.507);
+            }
+
+            .special{
+                font-weight:700;
+                font-size:19px;
+            }
+
+        </style>
+
+    </head>
+    <body>
+        <h1>Personalizando links</h1>
+        <ul>
+            <li><a target = "_blank" href="https://www.youtube.com/">Repositorio GitHub</a></li>
+            <li><a class = "special"target = "_blank" href="https://1500chan.org/">Youtube</a></li>
+            <li><a target = "_blank" href="https://www.google.com/">Facebook</a></li>
+        </ul>
+        
+
+
+    </body>
+</html>

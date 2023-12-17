@@ -1,0 +1,179 @@
+@font-face {
+    font-family: digital;
+    src: url("font/free_pixel/FreePixel.ttf");
+}
+*{
+    margin:0;
+    padding:0;
+    font-family:digital;
+}
+
+/*Variaveis css*/
+
+:root{
+    --corclara:#e6ecba;
+    --corescura:#848C68;
+}
+
+body{
+    background-color: var(--corclara);
+}
+
+main{
+    max-width:800px;
+    margin:100px auto;
+    border:1px solid var(--corescura);
+
+}
+
+img{
+    max-width:500px;
+    margin:0 auto;
+    display:block;
+}
+
+nav{
+    padding:10px 0;
+    background-color: var(--corescura);
+}
+
+
+nav a{
+    color:rgb(252, 252, 252);
+    text-decoration: none;
+    font-size:20px;
+    padding:10px;
+    transition-duration: 0.5s;
+}
+
+nav a:hover{
+    background-color: aliceblue;
+    color:#848C68;
+}
+
+section{
+    max-width:800px;
+    background-color: white;
+}
+
+section > h1{
+    font-size:3em;
+    padding:40px;
+    text-align: center;
+}
+
+section > p{
+    margin-top:40px;
+    text-align: center;
+}
+
+article > h1{
+    font-size:1.5em;
+    padding:10px;
+
+}
+
+.videos{
+    max-width:800px;
+    padding:10px;
+    text-align: center;
+}
+
+.um, .dois, .tres, .quatro, .cinco, .seis, .sete, .oito, .nove, .dez, .onze, .doze{
+    width:32.3%;
+    height:200px;
+    background-color: #848C68;
+    display:inline-block;
+    margin-right:-4px;
+    margin:0 auto;
+}
+
+.um{
+    background-image: url("images/um.jpg");
+    background-position: center;
+    background-size: cover;
+    
+
+}
+
+.dois{
+    background-image: url("images/dois.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.tres{
+    background-image: url("images/tres.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.quatro{
+    background-image: url("images/quatro.jpeg");
+    background-size:cover;
+}
+
+.cinco{
+    background-image: url("images/cinco.jpg");
+}
+
+.seis{
+    background-image: url("images/seis.jpg");
+    background-size: cover;
+}
+
+.sete{
+    background-image: url('images/sete.jpg');
+    background-size:cover;
+}
+
+.oito{
+    background-image: url('images/oito.jpg');
+    background-size:cover;
+}
+
+.nove{
+    background-image: url('images/nove.JPG');
+    background-size: cover;
+}
+
+.dez{
+    background-image: url('images/dez.jpg');
+    background-size: cover;
+}
+
+.onze{
+    background-image: url('images/onze.jpg');
+    background-size: cover;
+}
+
+.doze{
+    background-image: url('images/doze.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+footer{
+    background-color: var(--corescura);
+    padding:10px;
+    color:white;
+    text-align: center;
+}
+
+@media screen and (max-width: 550px){
+
+   .um, .dois, .tres, .quatro, .cinco, .seis, .sete, .oito, .nove, .dez, .onze, .doze {
+    width:50%;
+    display:block;
+    margin-top:10px;
+ 
+   }
+
+}
+
+
+
+/*Cases*/
+
+section.cases > h1{
+    text-align: left;
+    color:#848C68;
+}
