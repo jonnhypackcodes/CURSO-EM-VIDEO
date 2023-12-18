@@ -1,0 +1,81 @@
+*{margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: cabeca;
+    src: url('font/Rubik_Doodle_Shadow/RubikDoodleShadow-Regular.ttf');
+}
+
+:root{
+    --corescura: #4161BF;
+    --cormeio: #77A0F2;
+    --corclara:#91BBF2;
+    --fontcabeca: 'cabeca';
+}
+
+body{
+    background-color:var(--corclara);
+}
+
+section {
+    max-width:900px;
+    background-color:white;
+    margin:50px auto;
+}
+
+header{
+    height:150px;
+    background-color: var(--corescura);
+    font-family: var(--fontcabeca);
+    padding:60px;
+}
+header > h1{
+    color:white;
+    text-align: center;
+    font-size:4vw;
+}
+
+
+
+main p{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:3vw;
+    margin:40px;
+    line-height:2em;
+    width:400px;
+    font-weight:600;
+    display:block;
+}
+
+.photo1{
+    width:100%;
+    height:500px;
+    background-image:url('imagens/2.jpg');
+    background-position: center center;
+    background-repeat:no-repeat;
+    background-color:#4161BF;
+    background-size:contain;
+    background-attachment:fixed;
+    color:white;
+}
+
+.photo2{
+    background-image:url('imagens/sabado.jpg');
+    width:100%;
+    height:500px;
+    background-attachment:fixed;
+    background-position:center;
+    background-size:cover;
+    color:white;
+}
+
+footer{
+    width:100%;
+    background-color: #4161BF;
+    padding:10px;
+    text-align: center;
+    color:white;
+}
+
