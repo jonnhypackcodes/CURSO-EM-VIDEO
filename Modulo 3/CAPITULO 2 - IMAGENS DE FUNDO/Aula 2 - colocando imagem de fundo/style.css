@@ -1,0 +1,28 @@
+.quadrado{
+    border:2px solid black;
+    width:300px;
+    height:300px;
+    margin:20px auto;
+    display:inline-block;
+    border-radius: 10px;
+}
+
+.center{
+    text-align: center;
+}
+
+.um{
+    background-color:aqua;
+
+}
+
+.dois{
+    background-image:linear-gradient(to right, black, gray);
+
+}
+
+.tres{
+    background-image:url('img/pattern002.png');
+
+
+}
