@@ -1,0 +1,101 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700&display=swap');
+
+@font-face {
+    font-family: ;
+    src: url();
+}
+
+html, body{
+    min-height:100%;
+    background-color: var(--corescura);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, sans-serif;
+    padding:20px;
+
+
+}
+
+    :root{
+        --corescura: #490E59;
+        --corclara: #EED0F2;
+        --cormedia: #D948CF;
+    }
+
+    section{
+        max-width:800px;
+        background-color:var(--corclara);
+        margin:0 auto;
+    }
+
+    header{
+        background-color: var(--cormedia);
+        text-align: center;
+        color:white;
+        padding-top:50px;
+        font-variant:small-caps;
+        font-size:2vw;
+    }
+
+    header h1{
+
+
+
+    }
+
+    header > p{
+
+    }
+    header  h2 a{
+        text-decoration:none;
+        color:white;
+        
+    }
+
+    header h2{
+        padding-bottom:50px;
+    }
+
+    article{
+        padding:40px;
+        line-height:3em;
+        font-size:2vw;
+        color:var(--corescura);
+    }
+
+article.um{    
+        background-image:url('images/jupiter.jpg');
+        background-attachment: fixed;
+        background-size:cover;
+        box-shadow:inset 6px 6px 10px rgba(54, 53, 53, 0.151);
+        color:white;
+    }
+
+    article.dois{
+        background-image: url('images/jupiter2.jpg');
+        background-size:cover;
+        background-position:center;
+        background-attachment: fixed;
+        box-shadow:inset 1px 1px 10px rgba(0, 0, 0, 0.315);
+        color:white;
+    }
+
+    footer{
+        background-color: var(--cormedia);
+        padding:10px;
+        color:white;
+        text-align: center;
+    }
+
+
+    .imagem{
+        background-color:rgba(0, 0, 0, 0.541);
+    }
+
+    article > p{
+        max-width:300px;
+        background-color: rgba(0, 0, 0, 0.295);
+    }
