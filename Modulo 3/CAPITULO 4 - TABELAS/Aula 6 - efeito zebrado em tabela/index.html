@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang = "pt-br">
+    <head>
+        <meta charset = "utf-8">
+        <title>Efeito zebrado</title>
+        <style>
+            table{
+            width:600px;
+            border-collapse:collapse;
+            margin:0 auto;
+            }
+            td{
+                border:1px solid black;
+                padding:10px;
+            }
+            th, tfoot{
+                border:1px solid black;
+                padding:5px;
+                background-color: gray;
+                color:white;
+            }
+
+            tbody > tr:nth-child(2n){
+                background-color:gray;
+
+            }
+            /*Começando a colorir pelo impar*/
+            tbody > tr:nth-child(odd){
+                background-color: aqua;
+            }
+
+            caption{
+                font-size:2em;
+            }
+
+            .Idade{
+                text-align:right;
+            }
+
+            
+        </style>
+
+    </head>
+    <body>
+        <table>
+            <caption>Idade de pessoas</caption>
+            <thead>
+                <tr>
+                    <th scope = "col">NOME</th>
+                    <th scope = "col">IDADE</th>
+                </tr>
+
+            </thead>
+            <tbody>
+                <tr>
+                    <td>JONNHY</td>
+                    <td class = "Idade">35 ANOS</td>
+                </tr>
+                <tr>
+                    <td>RENATO</td>
+                    <td class = "Idade">109 ANOS</td>
+                </tr>
+                <tr>
+                    <td>JUMBA</td>
+                    <td class = "Idade">40 ANOS</td>
+                </tr>
+                <tr>
+                    <td>SASA</td>
+                    <td class = "Idade">15 ANOS</td>
+                </tr>
+                <tr>
+                    <td>JANJA</td>
+                    <td class = "Idade">40 ANOS</td>
+                </tr>
+                <tr>
+                    <td>ZIMBUEW</td>
+                    <td class = "Idade">20 ANOS</td>
+                </tr>
+                <tr>
+                    <td>DENKA</td>
+                    <td class = "Idade">16 ANOS</td>
+                </tr>
+                <tr>
+                    <td>SILCHA</td>
+                    <td class = "Idade">23 ANOS</td>
+                </tr><tr>
+                    <td>GONGOA</td>
+                    <td class = "Idade">27 ANOS</td>
+                </tr><tr>
+                    <td>DUGDUG</td>
+                    <td class = "Idade">29 ANOS</td>
+                </tr><tr>
+                    <td>DEKATO</td>
+                    <td class = "Idade">30 ANOS</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th>TOTAL DE PESSOAS</th>
+                    <td class = "Idade">10 PESSOAS</td>
+                </tr>
+
+            </tfoot>
+        </table>    
+        
+
+
+    </body>
+</html>

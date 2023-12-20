@@ -1,0 +1,85 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset = "utf-8">
+        <title>Caption e escopo</title>
+        <style>
+            table{
+                max-width:500px;
+                border-collapse:collapse;
+                margin:0 auto
+            }
+            td{
+                border:1px solid black;
+                padding:10px;
+                
+            }
+            th, tfoot > tr > td{
+                border:1px solid black;
+                background-color:gray;
+                color:white;
+            }
+
+            .idade{
+                text-align: center;
+            }
+
+            caption{
+                padding:10px 0;
+                font-size:2vw;
+            }
+
+           
+        </style>
+
+        <!--ANOTAÇÕES
+            Vais usar TH quando se tratar de titulo
+            vais usar TD quando for data
+        -->
+
+    </head>
+    <body>
+        <h1>Caption e escopo</h1>
+        <table>
+            <caption>Total de pessoas</caption>
+            <thead>
+                <tr>
+                    <th scope = "col">NOME</th>
+                    <th style ="width:50%;"; "scope = "col">IDADE</th>
+                </tr>
+
+            </thead>
+            <tbody>
+                <tr>
+                    <td>LUCAS</td>
+                    <td class = "idade">27 ANOS</td>
+                </tr>
+                <tr>
+                    <td>JONNHY </td>
+                    <td class = "idade">25 ANOS</td>
+                </tr>
+
+                <tr>
+                    <td>LARA</td>
+                    <td class = "idade">32 ANOS</td>
+                </tr>
+                <tr>
+                    <td>POIANE</td>
+                    <td class = "idade">20 ANOS</td>
+                </tr>
+
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th scope = "row">TOTAL DE PESSOAS</th>
+                    <td class = "idade"><strong>5</strong></td>
+                </tr>
+
+            </tfoot>
+
+            
+        </table>
+        
+
+    </body>
+</html>
