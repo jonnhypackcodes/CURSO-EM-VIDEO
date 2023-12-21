@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang = "pt-br">
+    <head>
+        <meta charset = "utf-8">
+        <title>Boletim</title>
+        <style>
+            table{
+                border-collapse: collapse;
+                margin:0 auto;
+            }
+
+            th, td{
+                border:1px solid black;
+                padding:10px;
+            }
+
+            .stilo, thead{
+                background-color: gray;
+                font-weight:800;
+            }
+            
+        </style>
+
+    </head>
+    <body>
+        <table>
+            <thead>
+                <tr>
+                    <th scope = "colgroup" = "2">AREA</th>
+                    <th scope = "colgroup"rowspan = "2">DISCIPLINA</th>
+                    <th colspan = "2" scope = "colgroup">NOTAS</th>
+                    <th scope = "colgroup"rowspan = '2'>MEDIA</th>
+                </tr>
+                
+                <tr>
+                    <th scope = "colgroup">NOTA 1</th>
+                    <th scope = "colgroup">NOTA 2</th>
+                </tr></thead>
+                <tbody>
+                <tr>
+                    <th scope = "rowgroup"; rowspan="4">EXATAS</th>
+                    <td scope = "rowgroup">Matematica</td>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                </tr>
+                <tr>
+                    <td scope = "rowgroup">Fisica</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td scope = "rowgroup">Quimica</td>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                </tr>
+                <tr>
+                    <td scope = "rowgroup">Biologia</td>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                </tr>
+                <tr> 
+                    <td class = "stilo" colspan = "4">Media de exatas</td>
+                    <td>0.0</td>
+                </tr>
+                <tr>
+                    <td scope = "colgroup" rowspan="2">Humanas</td>
+                    <td scope = "rowgroup">Historia</td>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                </tr>
+                <tr>
+                    <td scope = "rowgroup">Geografia</td>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                </tr>
+                <tr>
+                    <td scope = "row"class = "stilo" colspan = "4">Media de Humanas</td>
+                    <td>0</td>
+                </tr>
+
+            </tbody>
+        
+        </table>
+        
+
+    </body>
+</html>
