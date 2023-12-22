@@ -1,0 +1,62 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+/*Escondendo scrollbar*/
+
+html, body{
+    height:100vh;
+    width:100vw;
+    background-color: black;
+}
+
+body{
+    background-image:url('pacote-d013/imagens/fundo-madeira.jpg');
+    background-size:cover;
+    background-position:top center;
+}
+
+main{
+    position:relative;
+    height:100vh;
+
+}
+
+section.telefone{
+    width:311px;
+    height:550px;
+    position:absolute;
+    background-image: url('pacote-d013/imagens/frame-iphone.png');
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:contain;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+
+.telaCelular{
+    position:relative;
+    top:70px;
+    left:39px;
+    width:233px;
+    height:413px;
+
+}
+
+img{
+    width:50px;
+    border-radius:50%;
+    transition: 1s;
+}
+
+img:hover{
+    border:1px solid white;
+    box-sizing:border-box;
+    transform: translate(-3px, -3px);
+}
+
+.menu{
+    text-align: right;
+}
