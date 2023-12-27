@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang = "pt-br">
+    <head>
+        <meta charset = "utf-8">
+        <title>SELECT, DATALIST E TEXTAREA</title>
+
+    </head>
+    <body>
+        <form action="cadastro.php" >
+            <select name="estados" id="iestados">
+                <optgroup label = "REGIÃO SUDESTE">
+                    <option selected value = "selecione">Selecione o estado</option>
+                    <option value="SP">SÃO PAULO</option>
+                    <option value="RJ">RIO DE JANEIRO</option>
+                    <option value = "MG"> MINAS GERAIS</option>
+                    <option value = "ES">ESPIRITO SANTO</option>
+                </optgroup>
+                <optgroup label = "SUL">
+                    <option value="
+                    ">PARANÁ</option>
+                    <option value="">SANTA CATARINA</option>
+                    <option>RIO GRANDE DO SUL</option>
+                </optgroup>
+            </select>
+
+            <p>
+                <label for="profissão"></label>
+                <input type = "text" name = "prof" id = "iprof" list = "listprof">
+                <datalist id = "listprof">
+                    <option>ADVOGADO</option>
+                    <option>SERNISTA</option>
+                    <option>PAPAI NOEL</option>
+                </datalist>
+            </p>
+            <label for="">MENSAGEM</label>
+            <textarea name = "msg" id="imsg" cols = "2" rows = "2"></textarea>
+        </form>
+        
+
+    </body>
+</html>

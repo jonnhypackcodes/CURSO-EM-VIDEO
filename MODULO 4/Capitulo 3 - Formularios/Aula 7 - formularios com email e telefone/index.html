@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset = "utf-8">
+        <title>Email e telefone</title>
+
+    </head>
+    <body>
+        <h1>Email e telefone</h1>
+        <form action="cadastro.php" autocomplete = "off">
+            <fieldset>
+                <legend>FORMULARIO</legend>
+                <p>
+                    <label for="iemail">Email</label>
+                    <input type = "email" name = "email" id = "iemail" placeholder = "Digite seu Email">
+                </p>
+                <p>
+                    <label for="itel">Telefone</label>
+                    <input pattern = "^[0-9]{4}-[0-9]{4}$"type = "tel" name = "tel" id = "itel" placeholder = "Seu telefone por favor">
+                </p>
+                <input type = "submit" value = "ENVIAR">
+                <input type = "reset" value = "LIMPAR">
+            </fieldset>
+        </form>
+        <h3>Dicas</h3>
+        <p>Estudar sobre REGEX</p>
+        
+
+    </body>
+</html>

@@ -1,0 +1,17 @@
+*{
+    padding:10px;
+    margin:10px;
+}
+
+html, body{
+    font-family:'Courier New', Courier, monospace;
+    line-height:1.5em;
+    
+}
+
+nav{
+    display:none;}
+
+    article::after{
+        content: "Esse site foi criado pro Jonnhy fodendo pack";
+    }

@@ -1,0 +1,123 @@
+@charset "utf-8";
+/*
+Typical device breakpoints
+Mobile devices – 320px — 480px.
+iPads, Tablets – 481px — 768px.
+Small screens, laptops – 769px — 1024px.
+Desktops, large screens – 1025px — 1200px.
+Extra large screens, TV – 1201px, and more.
+*/
+
+
+
+/*Demais medias
+*/
+
+@media print{
+
+    main::after {
+        content:"Essa impressao foi feita por jonnhy pack";
+        
+    }
+
+    .fone{
+        display:none;
+    }
+    .impressora{
+        display:none;
+    
+    }
+    
+    .tv
+    {
+    display:none;
+    }
+    
+    .pc
+    {
+        display:none;
+    
+    }
+    
+    .tablet{
+        display:none;
+    }
+
+}
+
+@media screen and (min-width:481px) and (max-width:768px){
+    body{
+        background-image:url('images/back-tablet.jpg');
+    }
+
+    .fone{
+        display:none;
+    }
+    .impressora{
+        display:none;
+    
+    }
+    
+    img#tv
+    {
+    display:none;
+    }
+    
+    img#pc
+    {
+        display:none;
+    
+    }
+    
+    .tablet{
+        display:block;
+    }
+
+}
+
+@media screen and (min-width:769px) and (max-width:1024px){
+    body{
+        background-image: url('images/back-pc.jpg');
+    }
+
+    .fone{
+        display:none;}
+
+    .impressora{
+        display:none;
+    
+    }
+    
+    .tv{display:none;}
+
+    
+    .pc
+    {
+        display:block;
+    
+    }
+    
+    .tablet{
+        display:none;
+    }
+
+}
+
+@media screen and (min-width:1025px){
+    body{
+        background-image: url('images/back-tv.jpg');
+    }
+
+
+
+
+    .fone{
+        display:none;
+    }
+
+    .tv{
+        display:block;
+    }
+
+}
+

@@ -1,0 +1,10 @@
+@charset "utf-8";
+/*Configurações retrato*/
+
+body{
+    background-image:url('cev-portrait.jpg');
+}
+
+h1{
+    display:none;
+}

@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset = "utf-8">
+        <title></title> 
+        <style>
+            /*Configurações gerais*/
+            *{
+    margin:0;
+    padding:0;
+    font-family:'Courier New', Courier, monospace;
+
+}
+html, body{
+    width:100vw;
+    height:100vh;
+    background-color: #233EFF;
+    text-shadow:1px 1px 10px blue;
+    color:white;
+    font-size:2em;
+    background-size:contain;
+    background-repeat:no-repeat;
+    background-position: top;
+}
+
+@media screen and (orientation:portrait){
+    body{
+        background-image:url('../queriedois/cev-portrait.jpg');
+        background-position:top;
+        background-size:contain;
+
+    }
+    h1{
+        display:none;
+    }
+    
+}
+@media screen and (orientation:landscape) {
+    body{
+        background-image:url('../queriedois/cev-landscape.jpg');
+        background-size:contain;
+    }
+
+    h1{
+        display:none;
+    }
+    
+}
+
+        </style>
+
+
+    </head>
+    <body>
+        <h1>Teste de midia</h1>
+        
+
+    </body>
+</html>

@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset = "utf-8">
+        <title>Caixas de texto e senha</title>
+
+    </head>
+    <body>
+        <h1>
+            Formulario
+        </h1>
+
+        <form action="cadastro.php" method="post" autocomplete = "off">
+            <p>
+                <label for="inome">NOME:</label>
+                <input autocomplete = "username" placeholder = "digite seu nome" type = "text" name = "nome" id = "inome" required minlength="4" maxlength="10" size = "30">
+                
+            </p>
+            <p>
+                <label for="isenha">SENHA</label>
+                <input autocomplete = "current-password" placeholder = "Digite sua senha" type = "password" name = "senha" id = "isenha" required>
+            </p>
+            <input type = "submit" value = "ENVIAR">
+            <input type = "reset" value = "LIMPAR">
+
+        </form>
+        <h2>Required</h2>
+        <p>Ao colocar required no input do formulario obriga ao usuario a digitar nome e senha no form</p>
+        <h2>maxlenght e minlenght</h2>
+        <p>Minlengght obriga ao usuario a digitar um numero de caracteres minimo para conseguir completar o formulario</p>
+        <h3>
+            size
+        </h3>
+        <p>Aumenta e diminui o tamanho da caixa</p>
+        <h1>Placeholder</h1>
+        <p>Escreve dentro da caixa</p>
+        
+
+
+    </body>
+</html>

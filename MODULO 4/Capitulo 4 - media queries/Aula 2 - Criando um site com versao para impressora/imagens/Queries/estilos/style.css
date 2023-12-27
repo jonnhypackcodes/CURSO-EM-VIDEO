@@ -1,0 +1,49 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color:gray;
+    padding-top:10px;
+}
+
+header > h1{
+    text-align: center;
+}
+
+ul{
+    list-style-type: none;
+    background-color:darkgray;
+    padding:10px;
+}
+
+    ul li{
+        display:inline-block;
+        color:white;
+        font-size:18px;
+        margin:0px 20px;
+    }
+
+article{
+    max-width:800px;
+    margin:30px auto;
+    background-color: rgb(197, 188, 177);
+    
+}
+
+article > p{
+    line-height:1.5em;
+}
+
+article > h1{
+    font-size:2em;
+    text-align: center;
+    padding-bottom:20px;
+    
+}
