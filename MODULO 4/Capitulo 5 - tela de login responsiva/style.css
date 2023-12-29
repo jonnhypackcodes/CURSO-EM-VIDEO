@@ -1,0 +1,97 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html, body{
+    height:100%;
+    background-color: #406E73;
+    position:relative;
+
+}
+
+main{
+    overflow:hidden;
+    width:50%;
+    height:68vh;
+    background-color:white;
+    position:absolute;
+    top:50%;
+    left:50%;
+    border-radius:10px;
+    transform:translate(-50%, -50%);
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
+}
+
+form{
+    padding:5px;
+}
+
+.photo{
+    background-image: url(photo.jpg);
+    height:30%;
+    background-position:top;
+    background-size:cover;
+}
+span{
+    color:white;
+    padding:5px;
+    width:40px;
+    font-size:3em;
+}
+
+form > .ac > input{
+    width:calc(100% - 44px);
+    font-size:1em;
+    height:40px;
+    outline: none;
+    transform: translateY(-14px)
+}
+.ac{
+    background-color: #3E3F40;
+    height:40px;
+    margin:10px 0;
+    padding:10px 0;
+}
+
+h1{
+    text-align: center;
+    margin-top:10px;
+}
+
+p{
+    padding:5px;
+    text-align: justify;
+}
+
+input[type = "submit"]{
+display:block;
+width:100%;
+height: 40px;
+background-color: #528c92;
+border:none;
+color:white;
+}
+
+input[type = submit]:hover{
+    background-color: #406b70;
+}
+
+
+form  > a{
+    margin-top:5px;
+    display:block;
+    width:100%;
+    padding:10px 0;
+    background-color: #528c9248;
+    color:#528c92;
+    text-align: center;
+    text-decoration: none;
+    font-size:1em;
+}
+form > a:hover{
+    background-color: #6fb9c2;
+    color:white;
+}
